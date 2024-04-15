@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: robotoS;
+  src: url('robotoS.ttf');
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #ccd1d9, #aab2bd);
+  font-family: robotoS;
+}
+h1 {
+  font-size: 6em;
+}
+h2 {
+  font-size: 3em;
+}
+p {
+  font-size: 2em;
+  color: #ccd1d9;
+}
+header {
+  padding: 3em;
+  background-color: #434a54;
+  color: #ccd1d9;
+}
+.body {
+  margin: 3em;
+  padding: 3em;
+  background-color: #434a54;
+}
+.sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8cc152;
+}
+a {
+  padding: 3em 6em;
+  background-color: #8cc152;
+  color: #434a54;
+  text-decoration: none;
+}
+.des, .img {
+  margin-top: 3em;
+  padding: 3em;
+  border: .1em solid #8cc152;
+}
+.body, .des, a, .img, img {
+  border-radius: 3em;
+}
+header, .body {
+  box-shadow: 10px 10px 20px #656d78;
+}
+.img {
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.color {
+  display: flex;
+}
+.c {
+  margin-right: 1em;
+  padding: 1em;
+  border-radius: 50%;
+}
+.rojo {
+  background-color: #da4453;
+}
+.naranja {
+  background-color: #e9573f;
+}
+.amarillo {
+  background-color: #f6bb42;
+}
+.verde {
+  background-color: #8cc152;
+}
+.cian {
+  background-color: #37bc98;
+}
+.celeste {
+  background-color: #3bafda;
+}
+.azul {
+  background-color: #4a89dc;
+}
+.morado {
+  background-color: #967adc;
+}
+.rosa {
+  background-color: #d770ad;
+}
+ 
